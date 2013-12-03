@@ -1,0 +1,12 @@
+Source: ros-hydro-kinect-aux
+Section: misc
+Priority: extra
+Maintainer: Murilo F. M. <muhrix@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), libusb-1.0-0-dev, ros-hydro-catkin, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/kinect_aux
+Standards-Version: 3.9.2
+
+Package: ros-hydro-kinect-aux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libusb-1.0-0-dev, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-msgs
+Description: A standalone driver for the Kinect accelerometers and tilt motor.
