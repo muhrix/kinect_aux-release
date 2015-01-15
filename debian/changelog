@@ -1,0 +1,18 @@
+ros-indigo-kinect-aux (0.0.1-0trusty) trusty; urgency=high
+
+  * Modified way of finding libusb flags
+  * Added folder name where libusb.h resides
+  * Updated README.md: added Travis build image
+  * Added Travis configuration to repo
+  * Bumped package version
+  * Added changelog to repo
+  * Excluding Eclipse project files from repo with .gitignore
+  * rosdep install now works
+  * Allow kinect_aux_node to be installed
+  * The check for system dependency (libusb) is now done properly
+  * First commit of catkinised working version for ROS Groovy
+  * Contributors: Murilo F. M.
+
+ -- Murilo F. M. <muhrix@gmail.com>  Thu, 05 Dec 2013 00:00:00 -0000
+
+

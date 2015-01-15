@@ -1,0 +1,12 @@
+Source: ros-indigo-kinect-aux
+Section: misc
+Priority: extra
+Maintainer: Murilo F. M. <muhrix@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libusb-1.0-0-dev, ros-indigo-catkin, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/kinect_aux
+Standards-Version: 3.9.2
+
+Package: ros-indigo-kinect-aux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libusb-1.0-0-dev, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Description: A standalone driver for the Kinect accelerometers and tilt motor.
